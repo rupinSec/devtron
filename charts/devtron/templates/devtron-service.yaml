@@ -1,4 +1,3 @@
-#testing
 {{- if $.Values.components }}
 {{- if $.Values.components.devtron }}
 {{- if $.Values.components.devtron.service }}
