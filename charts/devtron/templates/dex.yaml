@@ -1,3 +1,5 @@
+#testing
+#testing2
 {{- with .Values.components.argocdDexServer }}
 {{- $argocdEnabled :=  index $.Values "argo-cd" }}
 apiVersion: v1
