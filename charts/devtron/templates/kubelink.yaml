@@ -1,3 +1,4 @@
+#testing
 {{- with .Values.components.kubelink }}
 apiVersion: v1
 kind: Secret
