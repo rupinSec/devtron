@@ -21,9 +21,9 @@ jobs:
             - added|modified: 'scripts/devtron-reference-helm-charts/**/templates/**'
             - added|modified: 'charts/devtron/**/templates/**'
           files: 
-            - added|modified: 'charts/devtron/**'
+            - added|modified: 'charts/devtron/*'
           ref_chart:
-            - added|modified: 'scripts/devtron-reference-helm-charts/**/**'
+            - added|modified: 'scripts/devtron-reference-helm-charts/*/*'
     - run: echo ${{ steps.filter.outputs.charts }}
     - run: echo ${{ steps.filter.outputs.files }}
     - run: echo ${{ steps.filter.outputs.ref_chart }}
