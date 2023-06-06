@@ -1,3 +1,4 @@
+#testing
 {{ $svcName := include ".servicename" . }}
 {{ $svcPort := (index .Values.ContainerPort 0).servicePort }}
 {{- if $.Values.ambassadorMapping.enabled }}
