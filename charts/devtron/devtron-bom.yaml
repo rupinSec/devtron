@@ -34,7 +34,7 @@ components:
   devtron:
     registry: ""
     image: "devtron:6a824121-643-11592"
-    cicdImage: "devtron:e7f34f5a-434-22106"
+    cicdImage: "devtron:6a824121-643-11661"
     imagePullPolicy: IfNotPresent
     customOverrides: {}
   ciRunner:
